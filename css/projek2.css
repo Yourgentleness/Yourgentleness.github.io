@@ -280,20 +280,20 @@ body {
 .layer #pref2 img {
   left: 130px;
 }
-.layer:hover #pref1 img, .layer:hover #next1 img, .layer:hover #pref2 img, .layer:hover #next2 img {
+.layer #pref1:hover img, .layer #next1:hover img, .layer #pref2:hover img, .layer #next2:hover img {
   animation: botton .3s both;
 }
 @keyframes botton {
   0% {
-    width: 0px;
+  
     opacity: 0;
   }
   50% {
-    width: 40px;
+   
     opacity: 0.5;
   }
   100% {
-    width: 80px;
+   
     opacity: 1;
   }
 }
